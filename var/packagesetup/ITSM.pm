@@ -170,12 +170,9 @@ run the code uninstall part
 sub CodeUninstall {
     my ( $Self, %Param ) = @_;
 
-    # get the reverse package list
-    my @ReversePackageList = reverse @{ $Self->{PackageNames} };
-
     # uninstall the packages
     $Self->_UninstallPackage(
-        PackageList    => \@ReversePackageList,
+        PackageList    => ['ITSM'],
         PackageVersion => $Self->{PackageVersion},
     );
 
@@ -186,7 +183,7 @@ sub CodeUninstall {
 
 =head2 _InstallITSMPackages()
 
-installes the itsm packages
+installs the itsm packages
 
     my $Result = $CodeObject->_InstallITSMPackages();
 
