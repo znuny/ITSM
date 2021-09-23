@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <otrs_package version="1.0">
     <Name>ITSM</Name>
-<!-- nofilter(TidyAll::Plugin::OTRS::SOPM::DocumentationPresent) -->
-    <Version>0.0.0</Version>
+    <!-- nofilter(TidyAll::Plugin::OTRS::SOPM::DocumentationPresent) -->
+    <Version>6.0.30</Version>
     <Framework Minimum="6.0.30">6.0.x</Framework>
-    <Vendor>OTRS AG</Vendor>
-    <URL>https://otrs.com/</URL>
+    <Vendor>Znuny</Vendor>
+    <URL>https://www.znuny.org/</URL>
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
     <Description Lang="en">The OTRS::ITSM bundle package.</Description>
     <Description Lang="de">Das OTRS::ITSM Bundle Paket.</Description>
@@ -57,12 +57,12 @@
         <b>WELCOME</b>
         <br>
         <br>
-        You are about to install the OTRS package ITSM.
-        This package will install OTRS::ITSM 6.0.30 on your system.
+        You are about to install the Znuny package ITSM.
+        This package will install Znuny::ITSM 6.0.30 on your system.
         <br>
         <br>
-        If you already installed some OTRS::ITSM packages on your system, please make sure first
-        that the OTRS::ITSM packages are at least of version 1.3.1 or higher!
+        If you already installed some Znuny::ITSM packages on your system, please make sure first
+        that the Znuny::ITSM packages are at least of version 1.3.1 or higher!
         <br>
         <br>
         After a successful installation, the following packages will be installed and shown by the package manager:
@@ -127,12 +127,12 @@
         <b>WILLKOMMEN</b>
         <br>
         <br>
-        Sie sind im Begriff das OTRS-Paket ITSM zu installieren.
-        Dieses Paket installiert OTRS::ITSM 6.0.30 auf Ihrem System.
+        Sie sind im Begriff das Znuny-Paket ITSM zu installieren.
+        Dieses Paket installiert Znuny::ITSM 6.0.30 auf Ihrem System.
         <br>
         <br>
-        Wenn auf Ihrem System bereits OTRS::ITSM-Pakete installiert
-        sein sollten, dann stellen Sie zunächst sicher, dass die OTRS::ITSM-Pakete mindestens der Version 1.3.1
+        Wenn auf Ihrem System bereits Znuny::ITSM-Pakete installiert
+        sein sollten, dann stellen Sie zunächst sicher, dass die Znuny::ITSM-Pakete mindestens der Version 1.3.1
         entsprechen!
         <br>
         <br>
@@ -200,12 +200,12 @@
         <b>ÜDVÖZÖLJÜK</b>
         <br>
         <br>
-        Ön az OTRS::ITSM csomag telepítésére készül.
-        Ez a csomag az OTRS::ITSM 6.0.30 verzióját fogja telepíteni a rendszerre.
+        Ön az Znuny::ITSM csomag telepítésére készül.
+        Ez a csomag az Znuny::ITSM 6.0.30 verzióját fogja telepíteni a rendszerre.
         <br>
         <br>
-        Ha már telepítette valamelyik OTRS::ITSM csomagot a rendszerre, akkor először győződjön
-        meg arról, hogy az OTRS::ITSM csomagok legalább 1.3.1 verziójúak vagy újabbak!
+        Ha már telepítette valamelyik Znuny::ITSM csomagot a rendszerre, akkor először győződjön
+        meg arról, hogy az Znuny::ITSM csomagok legalább 1.3.1 verziójúak vagy újabbak!
         <br>
         <br>
         Egy sikeres telepítés után a következő csomagokat fogja telepíteni és megjeleníteni a
@@ -277,8 +277,8 @@
         <b>WELCOME</b>
         <br>
         <br>
-        You are about to upgrade the OTRS package ITSM.<br>
-        This package will upgrade your system to OTRS::ITSM 6.0.30.
+        You are about to upgrade the Znuny package ITSM.<br>
+        This package will upgrade your system to Znuny::ITSM 6.0.30.
         <br>
         <br>
         After a successful upgrade, the following packages will be installed and shown by the package manager:
@@ -314,8 +314,8 @@
         <b>WILLKOMMEN</b>
         <br>
         <br>
-        Sie sind im Begriff das OTRS-Paket ITSM zu aktualisieren.
-        Dieses Paket aktualisiert Ihr System auf OTRS::ITSM 6.0.30.
+        Sie sind im Begriff das Znuny-Paket ITSM zu aktualisieren.
+        Dieses Paket aktualisiert Ihr System auf Znuny::ITSM 6.0.30.
         <br>
         <br>
         Nach erfolgreicher Aktualisierung sind folgende Pakete installiert und werden entsprechend im Paketmanager angezeigt:
@@ -351,8 +351,8 @@
         <b>ÜDVÖZÖLJÜK</b>
         <br>
         <br>
-        Ön az OTRS::ITSM csomag frissítésére készül.
-        Ez a csomag frissíteni fogja a rendszerét az OTRS::ITSM 6.0.30 verziójára.
+        Ön az Znuny::ITSM csomag frissítésére készül.
+        Ez a csomag frissíteni fogja a rendszerét az Znuny::ITSM 6.0.30 verziójára.
         <br>
         <br>
         Egy sikeres frissítés után a következő csomagokat fogja telepíteni és megjeleníteni a
@@ -391,29 +391,8 @@
         <br>
         If you uninstall this package, the following packages will be uninstalled automatically:
         <ul>
-        <li>GeneralCatalog 6.0.30</li>
-        <li>ITSMCore 6.0.30</li>
-        <li>ITSMIncidentProblemManagement 6.0.30</li>
-        <li>ITSMConfigurationManagement 6.0.30</li>
-        <li>ITSMChangeManagement 6.0.30</li>
-        <li>ITSMServiceLevelManagement 6.0.30</li>
-        <li>ImportExport 6.0.30</li>
+        <li>ITSM</li>
         </ul>
-        <br>
-        All database tables that were created during installation will be deleted.
-        All data from these tables will be irrevocably lost!
-        <br>
-        <br>
-        The groups 'itsm-service', 'itsm-configitem', 'itsm-change', 'itsm-change-builder' and 'itsm-change-manager'
-        that were created during package installation will be deactivated.
-        You can activate these groups again in the admin area.
-        <br>
-        <br>
-        All links to config item objects, change objects and workorder objects will be irrevocably deleted!
-        <br>
-        <br>
-        The statistics that are associated with these packages, will no longer be available if the package is uninstalled.
-        <br>
         <br>
         ((enjoy))
         <br>
@@ -428,28 +407,8 @@
         <br>
         Wenn Sie dieses Paket deinstallieren, werden die folgenden Pakete automatisch gelöscht:
         <ul>
-        <li>GeneralCatalog 6.0.30</li>
-        <li>ITSMCore 6.0.30</li>
-        <li>ITSMIncidentProblemManagement 6.0.30</li>
-        <li>ITSMConfigurationManagement 6.0.30</li>
-        <li>ITSMChangeManagement 6.0.30</li>
-        <li>ITSMServiceLevelManagement 6.0.30</li>
-        <li>ImportExport 6.0.30</li>
+        <li>ITSM</li>
         </ul>
-        <br>
-        Bei der Deinstallation werden die von diesen Paketen angelegten Datenbank-Tabellen gelöscht.
-        Alle darin enthaltenen Daten gehen unwiderruflich verloren!
-        <br>
-        <br>
-        Die von diesen Paketen angelegten Gruppen 'itsm-service', 'itsm-configitem', 'itsm-change',
-        'itsm-change-builder' und 'itsm-change-manager' werden deaktiviert.
-        Sie können jederzeit im Admin-Bereich wieder aktiviert werden.
-        <br>
-        <br>
-        Alle Verknüpfungen zu ConfigItem-Objekten, Change-Objekten und Workorder-Objekten werden unwiderruflich gelöscht!
-        <br>
-        <br>
-        Nach der Deinstallation sind die zu diesen Paketen zugehörigen Statistiken nicht mehr verfügbar.
         <br>
         <br>
         ((enjoy))
@@ -465,30 +424,8 @@
         <br>
         Ha eltávolítja ezt a csomagot, akkor a következő csomagok lesznek automatikusan eltávolítva:
         <ul>
-        <li>GeneralCatalog 6.0.30</li>
-        <li>ITSMCore 6.0.30</li>
-        <li>ITSMIncidentProblemManagement 6.0.30</li>
-        <li>ITSMConfigurationManagement 6.0.30</li>
-        <li>ITSMChangeManagement 6.0.30</li>
-        <li>ITSMServiceLevelManagement 6.0.30</li>
-        <li>ImportExport 6.0.30</li>
+        <li>ITSM</li>
         </ul>
-        <br>
-        A telepítés során létrehozott összes adatbázistábla törlésre kerül.
-        Az ezekben a táblákban lévő összes adat visszavonhatatlanul el fog veszni!
-        <br>
-        <br>
-        A csomagtelepítés során létrehozott „itsm-service”, „itsm-configitem”, „itsm-change”,
-        „itsm-change-builder” és „itsm-change-manager” csoport ki lesz kapcsolva.
-        Ezeket a csoportokat az adminisztrációs területen tudja ismét bekapcsolni.
-        <br>
-        <br>
-        A konfigurációelem-objektumokra, változásobjektumokra és munkamegrendelés-objektumokra
-        mutató összes hivatkozás visszavonhatatlanul törölve lesz!
-        <br>
-        <br>
-        Az ehhez a csomaghoz hozzárendelt statisztikák többé nem lesznek elérhetők, ha a csomag
-        eltávolításra kerül.
         <br>
         <br>
         ((enjoy))
