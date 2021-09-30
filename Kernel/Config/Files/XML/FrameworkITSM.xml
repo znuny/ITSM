@@ -5,7 +5,7 @@
         <Navigation>Core::Package</Navigation>
         <Value>
             <Hash>
-                <Item Key="https://ftp.otrs.org/pub/otrs/itsm/bundle6/">OTRS::ITSM 6 Bundle Master</Item>
+                <Item Key="https://download.znuny.org/releases/itsm/bundle6/">Znuny::ITSM Bundle</Item>
             </Hash>
         </Value>
     </Setting>
