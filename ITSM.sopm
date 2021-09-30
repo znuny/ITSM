@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>ITSM</Name>
     <!-- nofilter(TidyAll::Plugin::OTRS::SOPM::DocumentationPresent) -->
-    <Version>6.0.30</Version>
+    <Version>6.0.31</Version>
+    <ChangeLog Version="6.0.31" Date="2021-09-30 09:30:20 +0200">Added ITSM Packages 6.0.31.&#13;
+Fixed wrong repository URL.&#13;
+Removed deinstallation of bundle packages.</ChangeLog>
     <Framework Minimum="6.0.30">6.0.x</Framework>
     <Vendor>Znuny</Vendor>
     <URL>https://www.znuny.org/</URL>
@@ -11,15 +14,15 @@
     <Description Lang="de">Das OTRS::ITSM Bundle Paket.</Description>
     <Description Lang="hu">Az összes OTRS::ITSM csomag egyben.</Description>
     <Filelist>
-        <File Permission="660" Location="Kernel/Config/Files/XML/FrameworkITSM.xml" />
-        <File Permission="660" Location="var/packagesetup/ITSM/GeneralCatalog.opm" />
-        <File Permission="660" Location="var/packagesetup/ITSM/ImportExport.opm" />
-        <File Permission="660" Location="var/packagesetup/ITSM/ITSMChangeManagement.opm" />
-        <File Permission="660" Location="var/packagesetup/ITSM/ITSMConfigurationManagement.opm" />
-        <File Permission="660" Location="var/packagesetup/ITSM/ITSMCore.opm" />
-        <File Permission="660" Location="var/packagesetup/ITSM/ITSMIncidentProblemManagement.opm" />
-        <File Permission="660" Location="var/packagesetup/ITSM/ITSMServiceLevelManagement.opm" />
-        <File Permission="660" Location="var/packagesetup/ITSM.pm" />
+        <File Permission="660" Location="Kernel/Config/Files/XML/FrameworkITSM.xml"/>
+        <File Permission="660" Location="var/packagesetup/ITSM/GeneralCatalog.opm"/>
+        <File Permission="660" Location="var/packagesetup/ITSM/ImportExport.opm"/>
+        <File Permission="660" Location="var/packagesetup/ITSM/ITSMChangeManagement.opm"/>
+        <File Permission="660" Location="var/packagesetup/ITSM/ITSMConfigurationManagement.opm"/>
+        <File Permission="660" Location="var/packagesetup/ITSM/ITSMCore.opm"/>
+        <File Permission="660" Location="var/packagesetup/ITSM/ITSMIncidentProblemManagement.opm"/>
+        <File Permission="660" Location="var/packagesetup/ITSM/ITSMServiceLevelManagement.opm"/>
+        <File Permission="660" Location="var/packagesetup/ITSM.pm"/>
     </Filelist>
     <CodeInstall Type="post"><![CDATA[
 
