@@ -3,16 +3,15 @@
     <Name>ITSM</Name>
     <!-- nofilter(TidyAll::Plugin::OTRS::SOPM::DocumentationPresent) -->
     <Version>6.3.1</Version>
-    <ChangeLog Version="6.3.1" Date="2022-03-18 16:49:23 +0100">Ported to 6.3.</ChangeLog>
-    <Framework>6.3.x</Framework>
+    <Framework Minimum="6.3.2">6.3.x</Framework>
     <Vendor>Znuny</Vendor>
     <URL>https://www.znuny.org/</URL>
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
     <Description Lang="en">The ITSM bundle package.</Description>
-    <Description Lang="de">Das ITSM Bundle Paket.</Description>
+    <Description Lang="de">Das ITSM-Bundle-Paket.</Description>
     <Description Lang="hu">Az összes ITSM csomag egyben.</Description>
+    <ChangeLog Version="6.3.1" Date="2022-03-18 16:49:23 +0100">Ported to 6.3.</ChangeLog>
     <Filelist>
-        <File Permission="660" Location="Kernel/Config/Files/XML/FrameworkITSM.xml"/>
         <File Permission="660" Location="var/packagesetup/ITSM/GeneralCatalog.opm"/>
         <File Permission="660" Location="var/packagesetup/ITSM/ImportExport.opm"/>
         <File Permission="660" Location="var/packagesetup/ITSM/ITSMChangeManagement.opm"/>

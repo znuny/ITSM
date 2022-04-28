@@ -17,6 +17,7 @@ our @ObjectDependencies = (
     'Kernel::System::Log',
     'Kernel::System::Main',
     'Kernel::System::Package',
+    'Kernel::System::SysConfig',
 );
 
 =head1 NAME
@@ -91,6 +92,8 @@ run the code install part
 sub CodeInstall {
     my ( $Self, %Param ) = @_;
 
+    $Self->_AddPackageRepository(%Param);
+
     # check requirements
     my $ResultOk = $Self->_CheckRequirements();
 
@@ -130,6 +133,8 @@ run the code upgrade part
 
 sub CodeUpgrade {
     my ( $Self, %Param ) = @_;
+
+    $Self->_AddPackageRepository(%Param);
 
     # check requirements
     my $ResultOk = $Self->_CheckRequirements();
@@ -418,6 +423,67 @@ sub _CheckVersion {
         Message  => 'Invalid Type!',
     );
     return;
+}
+
+=head2 _AddPackageRepository()
+
+    Adds the ITSM package repository to the repository list.
+
+=cut
+
+sub _AddPackageRepository {
+    my ( $Self, %Param ) = @_;
+
+    my $SysConfigObject = $Kernel::OM->Get('Kernel::System::SysConfig');
+
+    my $SysConfigOptionName = 'Package::RepositoryList';
+
+    my %Setting = $SysConfigObject->SettingGet(
+        Name => $SysConfigOptionName,
+    );
+    return if !%Setting;
+
+    my @CurrentEffectiveValue = @{ $Setting{EffectiveValue} // [] };
+
+    # If ITSM bundle repository is already present, leave SysConfig option asit is.
+    my $ITSMRepositoryURL     = 'https://download.znuny.org/releases/itsm/bundle6x/';
+    my $ITSMRepositoryPresent = grep { $_->{URL} eq $ITSMRepositoryURL } @CurrentEffectiveValue;
+    return 1 if $ITSMRepositoryPresent;
+
+    # Add ITSM bundle repository.
+    # Only set SysConfig option to valid if it is already valid or currently invalid AND
+    # ONLY has the example repository configured.
+    # Also remove default example repository, if present.
+    my $ExampleRepositoryName        = 'Example repository 1';
+    my $ExampleRepositoryPresent     = grep { $_->{Name} eq $ExampleRepositoryName } @CurrentEffectiveValue;
+    my $OnlyExampleRepositoryPresent = @CurrentEffectiveValue == 1 && $ExampleRepositoryPresent;
+    my $SetSysConfigOptionValid      = ( $Setting{IsValid} || $OnlyExampleRepositoryPresent ) ? 1 : 0;
+
+    my @NewEffectiveValue = @CurrentEffectiveValue;
+    if ($ExampleRepositoryPresent) {
+        @NewEffectiveValue = grep { $_->{Name} ne $ExampleRepositoryName } @NewEffectiveValue;
+    }
+
+    push @NewEffectiveValue, {
+        Name            => 'Znuny::ITSM Bundle',
+        URL             => $ITSMRepositoryURL,
+        AuthHeaderKey   => '',
+        AuthHeaderValue => '',
+    };
+
+    my $Success = $SysConfigObject->SettingsSet(
+        UserID   => 1,
+        Comments => 'Znuny::ITSM package setup',
+        Settings => [
+            {
+                Name           => $SysConfigOptionName,
+                EffectiveValue => \@NewEffectiveValue,
+                IsValid        => $SetSysConfigOptionValid,
+            },
+        ],
+    );
+
+    return $Success;
 }
 
 1;
