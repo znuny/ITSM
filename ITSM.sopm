@@ -3,7 +3,7 @@
     <Name>ITSM</Name>
     <!-- nofilter(TidyAll::Plugin::OTRS::SOPM::DocumentationPresent) -->
     <Version>6.3.3</Version>
-    <Framework Minimum="6.3.2">6.3.x</Framework>
+    <Framework Minimum="6.4.2">6.4.x</Framework>
     <Vendor>Znuny</Vendor>
     <URL>https://www.znuny.org/</URL>
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
@@ -59,7 +59,7 @@
         <br>
         <br>
         You are about to install the Znuny package ITSM.
-        This package will install Znuny::ITSM 6.1.0 on your system.
+        This package will install Znuny::ITSM 6.4 on your system.
         <br>
         <br>
         If you already installed some Znuny::ITSM packages on your system, please make sure first
@@ -69,13 +69,13 @@
         After a successful installation, the following packages will be installed and shown by the package manager:
         <br>
         <ul>
-        <li>GeneralCatalog 6.1.0</li>
-        <li>ITSMCore 6.1.0</li>
-        <li>ITSMIncidentProblemManagement 6.1.0</li>
-        <li>ITSMConfigurationManagement 6.1.0</li>
-        <li>ITSMChangeManagement 6.1.0</li>
-        <li>ITSMServiceLevelManagement 6.1.0</li>
-        <li>ImportExport 6.1.0</li>
+        <li>GeneralCatalog 6.4</li>
+        <li>ITSMCore 6.4</li>
+        <li>ITSMIncidentProblemManagement 6.4</li>
+        <li>ITSMConfigurationManagement 6.4</li>
+        <li>ITSMChangeManagement 6.4</li>
+        <li>ITSMServiceLevelManagement 6.4</li>
+        <li>ImportExport 6.4</li>
         </ul>
         <br>
         <br>
@@ -129,7 +129,7 @@
         <br>
         <br>
         Sie sind im Begriff das Znuny-Paket ITSM zu installieren.
-        Dieses Paket installiert Znuny::ITSM 6.1.0 auf Ihrem System.
+        Dieses Paket installiert Znuny::ITSM 6.4 auf Ihrem System.
         <br>
         <br>
         Wenn auf Ihrem System bereits Znuny::ITSM-Pakete installiert
@@ -140,13 +140,13 @@
         Nach erfolgreicher Installation sind folgende Pakete installiert und werden entsprechend im Paketmanager angezeigt:
         <br>
         <ul>
-        <li>GeneralCatalog 6.1.0</li>
-        <li>ITSMCore 6.1.0</li>
-        <li>ITSMIncidentProblemManagement 6.1.0</li>
-        <li>ITSMConfigurationManagement 6.1.0</li>
-        <li>ITSMChangeManagement 6.1.0</li>
-        <li>ITSMServiceLevelManagement 6.1.0</li>
-        <li>ImportExport 6.1.0</li>
+        <li>GeneralCatalog 6.4</li>
+        <li>ITSMCore 6.4</li>
+        <li>ITSMIncidentProblemManagement 6.4</li>
+        <li>ITSMConfigurationManagement 6.4</li>
+        <li>ITSMChangeManagement 6.4</li>
+        <li>ITSMServiceLevelManagement 6.4</li>
+        <li>ImportExport 6.4</li>
         </ul>
         <br>
         <br>
@@ -202,7 +202,7 @@
         <br>
         <br>
         Ön az Znuny::ITSM csomag telepítésére készül.
-        Ez a csomag az Znuny::ITSM 6.1.0 verzióját fogja telepíteni a rendszerre.
+        Ez a csomag az Znuny::ITSM 6.4 verzióját fogja telepíteni a rendszerre.
         <br>
         <br>
         Ha már telepítette valamelyik Znuny::ITSM csomagot a rendszerre, akkor először győződjön
@@ -213,13 +213,13 @@
         csomagkezelő:
         <br>
         <ul>
-        <li>GeneralCatalog 6.1.0</li>
-        <li>ITSMCore 6.1.0</li>
-        <li>ITSMIncidentProblemManagement 6.1.0</li>
-        <li>ITSMConfigurationManagement 6.1.0</li>
-        <li>ITSMChangeManagement 6.1.0</li>
-        <li>ITSMServiceLevelManagement 6.1.0</li>
-        <li>ImportExport 6.1.0</li>
+        <li>GeneralCatalog 6.4</li>
+        <li>ITSMCore 6.4</li>
+        <li>ITSMIncidentProblemManagement 6.4</li>
+        <li>ITSMConfigurationManagement 6.4</li>
+        <li>ITSMChangeManagement 6.4</li>
+        <li>ITSMServiceLevelManagement 6.4</li>
+        <li>ImportExport 6.4</li>
         </ul>
         <br>
         <br>
@@ -279,19 +279,19 @@
         <br>
         <br>
         You are about to upgrade the Znuny package ITSM.<br>
-        This package will upgrade your system to Znuny::ITSM 6.1.0.
+        This package will upgrade your system to Znuny::ITSM 6.4.
         <br>
         <br>
         After a successful upgrade, the following packages will be installed and shown by the package manager:
         <br>
         <ul>
-        <li>GeneralCatalog 6.1.0</li>
-        <li>ITSMCore 6.1.0</li>
-        <li>ITSMIncidentProblemManagement 6.1.0</li>
-        <li>ITSMConfigurationManagement 6.1.0</li>
-        <li>ITSMChangeManagement 6.1.0</li>
-        <li>ITSMServiceLevelManagement 6.1.0</li>
-        <li>ImportExport 6.1.0</li>
+        <li>GeneralCatalog 6.4</li>
+        <li>ITSMCore 6.4</li>
+        <li>ITSMIncidentProblemManagement 6.4</li>
+        <li>ITSMConfigurationManagement 6.4</li>
+        <li>ITSMChangeManagement 6.4</li>
+        <li>ITSMServiceLevelManagement 6.4</li>
+        <li>ImportExport 6.4</li>
         </ul>
         <br>
         <br>
@@ -316,19 +316,19 @@
         <br>
         <br>
         Sie sind im Begriff das Znuny-Paket ITSM zu aktualisieren.
-        Dieses Paket aktualisiert Ihr System auf Znuny::ITSM 6.1.0.
+        Dieses Paket aktualisiert Ihr System auf Znuny::ITSM 6.4.
         <br>
         <br>
         Nach erfolgreicher Aktualisierung sind folgende Pakete installiert und werden entsprechend im Paketmanager angezeigt:
         <br>
         <ul>
-        <li>GeneralCatalog 6.1.0</li>
-        <li>ITSMCore 6.1.0</li>
-        <li>ITSMIncidentProblemManagement 6.1.0</li>
-        <li>ITSMConfigurationManagement 6.1.0</li>
-        <li>ITSMChangeManagement 6.1.0</li>
-        <li>ITSMServiceLevelManagement 6.1.0</li>
-        <li>ImportExport 6.1.0</li>
+        <li>GeneralCatalog 6.4</li>
+        <li>ITSMCore 6.4</li>
+        <li>ITSMIncidentProblemManagement 6.4</li>
+        <li>ITSMConfigurationManagement 6.4</li>
+        <li>ITSMChangeManagement 6.4</li>
+        <li>ITSMServiceLevelManagement 6.4</li>
+        <li>ImportExport 6.4</li>
         </ul>
         <br>
         <br>
@@ -353,20 +353,20 @@
         <br>
         <br>
         Ön az Znuny::ITSM csomag frissítésére készül.
-        Ez a csomag frissíteni fogja a rendszerét az Znuny::ITSM 6.1.0 verziójára.
+        Ez a csomag frissíteni fogja a rendszerét az Znuny::ITSM 6.4 verziójára.
         <br>
         <br>
         Egy sikeres frissítés után a következő csomagokat fogja telepíteni és megjeleníteni a
         csomagkezelő:
         <br>
         <ul>
-        <li>GeneralCatalog 6.1.0</li>
-        <li>ITSMCore 6.1.0</li>
-        <li>ITSMIncidentProblemManagement 6.1.0</li>
-        <li>ITSMConfigurationManagement 6.1.0</li>
-        <li>ITSMChangeManagement 6.1.0</li>
-        <li>ITSMServiceLevelManagement 6.1.0</li>
-        <li>ImportExport 6.1.0</li>
+        <li>GeneralCatalog 6.4</li>
+        <li>ITSMCore 6.4</li>
+        <li>ITSMIncidentProblemManagement 6.4</li>
+        <li>ITSMConfigurationManagement 6.4</li>
+        <li>ITSMChangeManagement 6.4</li>
+        <li>ITSMServiceLevelManagement 6.4</li>
+        <li>ImportExport 6.4</li>
         </ul>
         <br>
         <br>

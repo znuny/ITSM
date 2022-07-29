@@ -2,13 +2,9 @@
 <otrs_package version="1.0">
     <Name>ITSMServiceLevelManagement</Name>
     <!-- nofilter(TidyAll::Plugin::OTRS::SOPM::DocumentationPresent) -->
-    <Version>6.3.3</Version>
-    <ChangeLog Version="6.3.3" Date="2022-04-28 10:15:40 +0200">Release for Znuny 6.3.3.</ChangeLog>
-    <ChangeLog Version="6.3.1" Date="2022-03-18 15:01:47 +0100">Ported to 6.3.</ChangeLog>
-    <ChangeLog Version="6.2.1" Date="2021-11-09 12:41:24 +0100">Ported to 6.2</ChangeLog>
-    <ChangeLog Version="6.1.1" Date="2021-09-14 13:25:27 +0200">Ported to 6.1</ChangeLog>
-    <Framework>6.3.x</Framework>
-    <PackageRequired Version="6.3.1">ITSMCore</PackageRequired>
+    <Version>6.4.2</Version>
+    <Framework Minimum="6.4.2">6.4.x</Framework>
+    <PackageRequired Version="6.4.2">ITSMCore</PackageRequired>
     <Vendor>Znuny</Vendor>
     <URL>https://www.znuny.org/</URL>
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
@@ -16,8 +12,13 @@
     <Description Lang="de">Das OTRS::ITSM Service Level Management Paket.</Description>
     <Description Lang="es">El paquete OTRS::ITSM Service Level Management.</Description>
     <Description Lang="hu">Az OTRS::ITSM szolgáltatásszint-menedzsment csomag.</Description>
+    <ChangeLog Version="6.4.2" Date="2022-07-29 09:07:11 +0200">Initial release for Znuny 6.4.2.</ChangeLog>
+    <ChangeLog Version="6.3.3" Date="2022-04-28 10:15:40 +0200">Release for Znuny 6.3.3.</ChangeLog>
+    <ChangeLog Version="6.3.1" Date="2022-03-18 15:01:47 +0100">Ported to 6.3.</ChangeLog>
+    <ChangeLog Version="6.2.1" Date="2021-11-09 12:41:24 +0100">Ported to 6.2</ChangeLog>
+    <ChangeLog Version="6.1.1" Date="2021-09-14 13:25:27 +0200">Ported to 6.1</ChangeLog>
     <BuildHost>build.znuny.com</BuildHost>
-    <BuildDate>2022-04-28 08:15:40 UTC</BuildDate>
+    <BuildDate>2022-07-29 07:07:11 UTC</BuildDate>
     <Filelist>
         <File Permission="660" Location="var/stats/ITSMStats-001-Ticket.xml" Encode="Base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KCjxvdHJzX3N0YXRzPgo8Q2FjaGU+MDwvQ2FjaGU+CjxEZXNjcmlwdGlvbj5Ub3RhbCBudW1iZXIgb2YgYWxsIHRpY2tldHMgZXZlciBjcmVhdGVkIHBlciBUaWNrZXQtVHlwZSBhbmQgUHJpb3JpdHkuCgpYLUF4aXM6IFRpY2tldC1UeXBlClktQXhpczogUHJpb3JpdHkKClJlc3RyaWN0aW9uczoKICAgIC1ub25lPC9EZXNjcmlwdGlvbj4KPEZpbGU+PC9GaWxlPgo8Rm9ybWF0PkNTVjwvRm9ybWF0Pgo8Rm9ybWF0PkV4Y2VsPC9Gb3JtYXQ+CjxGb3JtYXQ+UHJpbnQ8L0Zvcm1hdD4KPEZvcm1hdD5EMzo6QmFyQ2hhcnQ8L0Zvcm1hdD4KPEZvcm1hdD5EMzo6TGluZUNoYXJ0PC9Gb3JtYXQ+CjxGb3JtYXQ+RDM6OlN0YWNrZWRBcmVhQ2hhcnQ8L0Zvcm1hdD4KPEdyYXBoU2l6ZT48L0dyYXBoU2l6ZT4KPE9iamVjdD5UaWNrZXQ8L09iamVjdD4KPE9iamVjdE1vZHVsZT5LZXJuZWw6OlN5c3RlbTo6U3RhdHM6OkR5bmFtaWM6OlRpY2tldDwvT2JqZWN0TW9kdWxlPgo8UGVybWlzc2lvbj5zdGF0czwvUGVybWlzc2lvbj4KPFN0YXRUeXBlPmR5bmFtaWM8L1N0YXRUeXBlPgo8U3VtQ29sPjE8L1N1bUNvbD4KPFN1bVJvdz4xPC9TdW1Sb3c+CjxUaXRsZT5Ub3RhbCBudW1iZXIgb2YgYWxsIHRpY2tldHMgZXZlciBjcmVhdGVkIHBlciBUaWNrZXQtVHlwZSBhbmQgUHJpb3JpdHk8L1RpdGxlPgo8VXNlQXNWYWx1ZVNlcmllcyBFbGVtZW50PSJQcmlvcml0eUlEcyIgRml4ZWQ9IjEiPgo8L1VzZUFzVmFsdWVTZXJpZXM+CjxVc2VBc1h2YWx1ZSBFbGVtZW50PSJUeXBlSURzIiBGaXhlZD0iMSI+CjwvVXNlQXNYdmFsdWU+CjxWYWxpZD4xPC9WYWxpZD4KPC9vdHJzX3N0YXRzPgo=</File>
         <File Permission="660" Location="var/stats/ITSMStats-002-Ticket.xml" Encode="Base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KCjxvdHJzX3N0YXRzPgo8Q2FjaGU+MDwvQ2FjaGU+CjxEZXNjcmlwdGlvbj5Ub3RhbCBudW1iZXIgb2YgYWxsIHRpY2tldHMgZXZlciBjcmVhdGVkIHBlciBUaWNrZXQtVHlwZSBhbmQgU3RhdGUuCgpYLUF4aXM6IFRpY2tldC1UeXBlClktQXhpczogU3RhdGUKClJlc3RyaWN0aW9uczoKICAgIC1ub25lPC9EZXNjcmlwdGlvbj4KPEZpbGU+PC9GaWxlPgo8Rm9ybWF0PkNTVjwvRm9ybWF0Pgo8Rm9ybWF0PkV4Y2VsPC9Gb3JtYXQ+CjxGb3JtYXQ+UHJpbnQ8L0Zvcm1hdD4KPEZvcm1hdD5EMzo6QmFyQ2hhcnQ8L0Zvcm1hdD4KPEZvcm1hdD5EMzo6TGluZUNoYXJ0PC9Gb3JtYXQ+CjxGb3JtYXQ+RDM6OlN0YWNrZWRBcmVhQ2hhcnQ8L0Zvcm1hdD4KPEdyYXBoU2l6ZT48L0dyYXBoU2l6ZT4KPE9iamVjdD5UaWNrZXQ8L09iamVjdD4KPE9iamVjdE1vZHVsZT5LZXJuZWw6OlN5c3RlbTo6U3RhdHM6OkR5bmFtaWM6OlRpY2tldDwvT2JqZWN0TW9kdWxlPgo8UGVybWlzc2lvbj5zdGF0czwvUGVybWlzc2lvbj4KPFN0YXRUeXBlPmR5bmFtaWM8L1N0YXRUeXBlPgo8U3VtQ29sPjE8L1N1bUNvbD4KPFN1bVJvdz4xPC9TdW1Sb3c+CjxUaXRsZT5Ub3RhbCBudW1iZXIgb2YgYWxsIHRpY2tldHMgZXZlciBjcmVhdGVkIHBlciBUaWNrZXQtVHlwZSBhbmQgU3RhdGU8L1RpdGxlPgo8VXNlQXNWYWx1ZVNlcmllcyBFbGVtZW50PSJTdGF0ZUlEcyIgRml4ZWQ9IjEiPgo8L1VzZUFzVmFsdWVTZXJpZXM+CjxVc2VBc1h2YWx1ZSBFbGVtZW50PSJUeXBlSURzIiBGaXhlZD0iMSI+CjwvVXNlQXNYdmFsdWU+CjxWYWxpZD4xPC9WYWxpZD4KPC9vdHJzX3N0YXRzPgo=</File>
