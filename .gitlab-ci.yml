@@ -1,5 +1,5 @@
-image: registry.znuny.com/znuny/internal/docker-centos-otrs-systemd:6.4
+image: registry.znuny.com/znuny/internal/docker-znuny-ci:6.4
 
 include:
-  - project: $INCLUDE_PROJECT
-    file: '/templates/gitlab/default/deploy.yml'
+  - project: 'Znuny/Internal/Znuny'
+    file: '/templates/gitlab/default/default-db.yml'

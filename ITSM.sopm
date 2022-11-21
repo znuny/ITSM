@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>ITSM</Name>
-    <!-- nofilter(TidyAll::Plugin::OTRS::SOPM::DocumentationPresent) -->
     <Version>6.4.3</Version>
     <Framework Minimum="6.4.2">6.4.x</Framework>
     <Vendor>Znuny</Vendor>
