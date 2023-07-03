@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>ITSMServiceLevelManagement</Name>
-    <Version>6.5.1</Version>
-    <Framework>6.5.x</Framework>
-    <PackageRequired Version="6.5.1">ITSMCore</PackageRequired>
+    <Version>7.0.1</Version>
+    <Framework>7.0.x</Framework>
+    <PackageRequired Version="7.0.1">ITSMCore</PackageRequired>
     <Vendor>Znuny</Vendor>
     <URL>https://www.znuny.org/</URL>
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
@@ -11,6 +11,7 @@
     <Description Lang="de">Das OTRS::ITSM Service Level Management Paket.</Description>
     <Description Lang="es">El paquete OTRS::ITSM Service Level Management.</Description>
     <Description Lang="hu">Az OTRS::ITSM szolgáltatásszint-menedzsment csomag.</Description>
+    <ChangeLog Version="7.0.1" Date="2023-05-22 16:07:58 +0200">Initial release for Znuny 7.0.</ChangeLog>
     <ChangeLog Version="6.5.1" Date="2023-02-20 15:11:56 +0100">Initial release for Znuny 6.5.</ChangeLog>
     <ChangeLog Version="6.4.3" Date="2022-11-09 09:34:48 +0100">Updated translations.</ChangeLog>
     <ChangeLog Version="6.4.2" Date="2022-07-29 09:07:11 +0200">Initial release for Znuny 6.4.2.</ChangeLog>
@@ -19,7 +20,7 @@
     <ChangeLog Version="6.2.1" Date="2021-11-09 12:41:24 +0100">Ported to 6.2</ChangeLog>
     <ChangeLog Version="6.1.1" Date="2021-09-14 13:25:27 +0200">Ported to 6.1</ChangeLog>
     <BuildHost>build.znuny.com</BuildHost>
-    <BuildDate>2023-02-20 14:11:56 UTC</BuildDate>
+    <BuildDate>2023-05-22 14:07:58 UTC</BuildDate>
     <Filelist>
         <File Permission="660" Location="scripts/test/var/packagesetup/ITSMServiceLevelManagement.t" Encode="Base64">IyAtLQojIENvcHlyaWdodCAoQykgMjAyMSBabnVueSBHbWJILCBodHRwczovL3pudW55Lm9yZy8KIyAtLQojIFRoaXMgc29mdHdhcmUgY29tZXMgd2l0aCBBQlNPTFVURUxZIE5PIFdBUlJBTlRZLiBGb3IgZGV0YWlscywgc2VlCiMgdGhlIGVuY2xvc2VkIGZpbGUgQ09QWUlORyBmb3IgbGljZW5zZSBpbmZvcm1hdGlvbiAoQUdQTCkuIElmIHlvdQojIGRpZCBub3QgcmVjZWl2ZSB0aGlzIGZpbGUsIHNlZSBodHRwOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvYWdwbC50eHQuCiMgLS0KCnVzZSBzdHJpY3Q7CnVzZSB3YXJuaW5nczsKdXNlIHV0Zjg7Cgp1c2UgdmFycyAocXcoJFNlbGYpKTsKCnVzZSBLZXJuZWw6OlN5c3RlbTo6VmFyaWFibGVDaGVjayBxdyg6YWxsKTsKCm15ICRQYWNrYWdlU2V0dXBPYmplY3QgPSAkS2VybmVsOjpPTS0+R2V0KCd2YXI6OnBhY2thZ2VzZXR1cDo6SVRTTVNlcnZpY2VMZXZlbE1hbmFnZW1lbnQnKTsKCiRTZWxmLT5UcnVlKAogICAgc2NhbGFyICRQYWNrYWdlU2V0dXBPYmplY3QtPkNvZGVJbnN0YWxsKCksCiAgICAnQ29kZUluc3RhbGwoKScsCik7CgokU2VsZi0+VHJ1ZSgKICAgIHNjYWxhciAkUGFja2FnZVNldHVwT2JqZWN0LT5Db2RlUmVpbnN0YWxsKCksCiAgICAnQ29kZVJlaW5zdGFsbCgpJywKKTsKCiRTZWxmLT5UcnVlKAogICAgc2NhbGFyICRQYWNrYWdlU2V0dXBPYmplY3QtPkNvZGVVcGdyYWRlKCksCiAgICAnQ29kZVVwZ3JhZGUoKScsCik7CgokU2VsZi0+VHJ1ZSgKICAgIHNjYWxhciAkUGFja2FnZVNldHVwT2JqZWN0LT5Db2RlVW5pbnN0YWxsKCksCiAgICAnQ29kZVVuaW5zdGFsbCcsCik7CgoxOwo=</File>
         <File Permission="660" Location="var/stats/ITSMStats-001-Ticket.xml" Encode="Base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KCjxvdHJzX3N0YXRzPgo8Q2FjaGU+MDwvQ2FjaGU+CjxEZXNjcmlwdGlvbj5Ub3RhbCBudW1iZXIgb2YgYWxsIHRpY2tldHMgZXZlciBjcmVhdGVkIHBlciBUaWNrZXQtVHlwZSBhbmQgUHJpb3JpdHkuCgpYLUF4aXM6IFRpY2tldC1UeXBlClktQXhpczogUHJpb3JpdHkKClJlc3RyaWN0aW9uczoKICAgIC1ub25lPC9EZXNjcmlwdGlvbj4KPEZpbGU+PC9GaWxlPgo8Rm9ybWF0PkNTVjwvRm9ybWF0Pgo8Rm9ybWF0PkV4Y2VsPC9Gb3JtYXQ+CjxGb3JtYXQ+UHJpbnQ8L0Zvcm1hdD4KPEZvcm1hdD5EMzo6QmFyQ2hhcnQ8L0Zvcm1hdD4KPEZvcm1hdD5EMzo6TGluZUNoYXJ0PC9Gb3JtYXQ+CjxGb3JtYXQ+RDM6OlN0YWNrZWRBcmVhQ2hhcnQ8L0Zvcm1hdD4KPEdyYXBoU2l6ZT48L0dyYXBoU2l6ZT4KPE9iamVjdD5UaWNrZXQ8L09iamVjdD4KPE9iamVjdE1vZHVsZT5LZXJuZWw6OlN5c3RlbTo6U3RhdHM6OkR5bmFtaWM6OlRpY2tldDwvT2JqZWN0TW9kdWxlPgo8UGVybWlzc2lvbj5zdGF0czwvUGVybWlzc2lvbj4KPFN0YXRUeXBlPmR5bmFtaWM8L1N0YXRUeXBlPgo8U3VtQ29sPjE8L1N1bUNvbD4KPFN1bVJvdz4xPC9TdW1Sb3c+CjxUaXRsZT5Ub3RhbCBudW1iZXIgb2YgYWxsIHRpY2tldHMgZXZlciBjcmVhdGVkIHBlciBUaWNrZXQtVHlwZSBhbmQgUHJpb3JpdHk8L1RpdGxlPgo8VXNlQXNWYWx1ZVNlcmllcyBFbGVtZW50PSJQcmlvcml0eUlEcyIgRml4ZWQ9IjEiPgo8L1VzZUFzVmFsdWVTZXJpZXM+CjxVc2VBc1h2YWx1ZSBFbGVtZW50PSJUeXBlSURzIiBGaXhlZD0iMSI+CjwvVXNlQXNYdmFsdWU+CjxWYWxpZD4xPC9WYWxpZD4KPC9vdHJzX3N0YXRzPgo=</File>
