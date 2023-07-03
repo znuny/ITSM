@@ -11,6 +11,7 @@ package var::packagesetup::ITSM;    ## no critic
 
 use strict;
 use warnings;
+use utf8;
 
 our @ObjectDependencies = (
     'Kernel::Config',
@@ -68,7 +69,7 @@ sub new {
     ];
 
     # define the version of the included packages
-    $Self->{PackageVersion} = '6.4.2';
+    $Self->{PackageVersion} = '6.5.2';
 
     # define miminum required itsm version (if installed already)
     $Self->{MinimumITSMVersion} = '1.3.1';
