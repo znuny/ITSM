@@ -11,6 +11,7 @@ package var::packagesetup::ITSM;    ## no critic
 
 use strict;
 use warnings;
+use utf8;
 
 our @ObjectDependencies = (
     'Kernel::Config',
@@ -68,7 +69,7 @@ sub new {
     ];
 
     # define the version of the included packages
-    $Self->{PackageVersion} = '6.4.2';
+    $Self->{PackageVersion} = '7.0.1';
 
     # define miminum required itsm version (if installed already)
     $Self->{MinimumITSMVersion} = '1.3.1';
@@ -446,7 +447,7 @@ sub _AddPackageRepository {
     my @CurrentEffectiveValue = @{ $Setting{EffectiveValue} // [] };
 
     # If ITSM bundle repository is already present, leave SysConfig option asit is.
-    my $ITSMRepositoryURL     = 'https://download.znuny.org/releases/itsm/bundle6x/';
+    my $ITSMRepositoryURL     = 'https://download.znuny.org/releases/itsm/bundle7/';
     my $ITSMRepositoryPresent = grep { $_->{URL} eq $ITSMRepositoryURL } @CurrentEffectiveValue;
     return 1 if $ITSMRepositoryPresent;
 

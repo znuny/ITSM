@@ -2,7 +2,7 @@
 <otrs_package version="1.0">
     <Name>ITSM</Name>
     <Version>6.5.1</Version>
-    <Framework>6.5.x</Framework>
+    <Framework>7.0.x</Framework>
     <Vendor>Znuny</Vendor>
     <URL>https://www.znuny.org/</URL>
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
@@ -61,7 +61,7 @@
         <br>
         <br>
         You are about to install the Znuny package ITSM.
-        This package will install Znuny::ITSM 6.4 on your system.
+        This package will install Znuny::ITSM 7.0 on your system.
         <br>
         <br>
         If you already installed some Znuny::ITSM packages on your system, please make sure first
@@ -71,13 +71,13 @@
         After a successful installation, the following packages will be installed and shown by the package manager:
         <br>
         <ul>
-        <li>GeneralCatalog 6.4</li>
-        <li>ITSMCore 6.4</li>
-        <li>ITSMIncidentProblemManagement 6.4</li>
-        <li>ITSMConfigurationManagement 6.4</li>
-        <li>ITSMChangeManagement 6.4</li>
-        <li>ITSMServiceLevelManagement 6.4</li>
-        <li>ImportExport 6.4</li>
+        <li>GeneralCatalog 7.0</li>
+        <li>ITSMCore 7.0</li>
+        <li>ITSMIncidentProblemManagement 7.0</li>
+        <li>ITSMConfigurationManagement 7.0</li>
+        <li>ITSMChangeManagement 7.0</li>
+        <li>ITSMServiceLevelManagement 7.0</li>
+        <li>ImportExport 7.0</li>
         </ul>
         <br>
         <br>
@@ -120,8 +120,6 @@
         The statistics that are installed by this package will be available in the menu item 'Stats'.
         <br>
         <br>
-        ((enjoy))<br>
-        <br>
 
     ]]></IntroInstall>
     <IntroInstall Type="pre" Title="Installation Information" Lang="de"><![CDATA[
@@ -131,7 +129,7 @@
         <br>
         <br>
         Sie sind im Begriff das Znuny-Paket ITSM zu installieren.
-        Dieses Paket installiert Znuny::ITSM 6.4 auf Ihrem System.
+        Dieses Paket installiert Znuny::ITSM 7.0 auf Ihrem System.
         <br>
         <br>
         Wenn auf Ihrem System bereits Znuny::ITSM-Pakete installiert
@@ -142,13 +140,13 @@
         Nach erfolgreicher Installation sind folgende Pakete installiert und werden entsprechend im Paketmanager angezeigt:
         <br>
         <ul>
-        <li>GeneralCatalog 6.4</li>
-        <li>ITSMCore 6.4</li>
-        <li>ITSMIncidentProblemManagement 6.4</li>
-        <li>ITSMConfigurationManagement 6.4</li>
-        <li>ITSMChangeManagement 6.4</li>
-        <li>ITSMServiceLevelManagement 6.4</li>
-        <li>ImportExport 6.4</li>
+        <li>GeneralCatalog 7.0</li>
+        <li>ITSMCore 7.0</li>
+        <li>ITSMIncidentProblemManagement 7.0</li>
+        <li>ITSMConfigurationManagement 7.0</li>
+        <li>ITSMChangeManagement 7.0</li>
+        <li>ITSMServiceLevelManagement 7.0</li>
+        <li>ImportExport 7.0</li>
         </ul>
         <br>
         <br>
@@ -192,9 +190,6 @@
         Im Menü-Punkt 'Statistik' sind die von diesem Paket installierten Statistiken verfügbar.
         <br>
         <br>
-        ((enjoy))
-        <br>
-        <br>
 
     ]]></IntroInstall>
     <IntroInstall Type="pre" Title="Telepítési információk" Lang="hu"><![CDATA[
@@ -204,7 +199,7 @@
         <br>
         <br>
         Ön az Znuny::ITSM csomag telepítésére készül.
-        Ez a csomag az Znuny::ITSM 6.4 verzióját fogja telepíteni a rendszerre.
+        Ez a csomag az Znuny::ITSM 7.0 verzióját fogja telepíteni a rendszerre.
         <br>
         <br>
         Ha már telepítette valamelyik Znuny::ITSM csomagot a rendszerre, akkor először győződjön
@@ -215,13 +210,13 @@
         csomagkezelő:
         <br>
         <ul>
-        <li>GeneralCatalog 6.4</li>
-        <li>ITSMCore 6.4</li>
-        <li>ITSMIncidentProblemManagement 6.4</li>
-        <li>ITSMConfigurationManagement 6.4</li>
-        <li>ITSMChangeManagement 6.4</li>
-        <li>ITSMServiceLevelManagement 6.4</li>
-        <li>ImportExport 6.4</li>
+        <li>GeneralCatalog 7.0</li>
+        <li>ITSMCore 7.0</li>
+        <li>ITSMIncidentProblemManagement 7.0</li>
+        <li>ITSMConfigurationManagement 7.0</li>
+        <li>ITSMChangeManagement 7.0</li>
+        <li>ITSMServiceLevelManagement 7.0</li>
+        <li>ImportExport 7.0</li>
         </ul>
         <br>
         <br>
@@ -270,8 +265,6 @@
         A csomag által telepített statisztikák a „Statisztikák” menüpontban lesznek elérhetők.
         <br>
         <br>
-        ((enjoy))<br>
-        <br>
 
     ]]></IntroInstall>
     <IntroUpgrade Type="pre" Title="Upgrade Information" Lang="en"><![CDATA[
@@ -281,19 +274,19 @@
         <br>
         <br>
         You are about to upgrade the Znuny package ITSM.<br>
-        This package will upgrade your system to Znuny::ITSM 6.4.
+        This package will upgrade your system to Znuny::ITSM 7.0.
         <br>
         <br>
         After a successful upgrade, the following packages will be installed and shown by the package manager:
         <br>
         <ul>
-        <li>GeneralCatalog 6.4</li>
-        <li>ITSMCore 6.4</li>
-        <li>ITSMIncidentProblemManagement 6.4</li>
-        <li>ITSMConfigurationManagement 6.4</li>
-        <li>ITSMChangeManagement 6.4</li>
-        <li>ITSMServiceLevelManagement 6.4</li>
-        <li>ImportExport 6.4</li>
+        <li>GeneralCatalog 7.0</li>
+        <li>ITSMCore 7.0</li>
+        <li>ITSMIncidentProblemManagement 7.0</li>
+        <li>ITSMConfigurationManagement 7.0</li>
+        <li>ITSMChangeManagement 7.0</li>
+        <li>ITSMServiceLevelManagement 7.0</li>
+        <li>ImportExport 7.0</li>
         </ul>
         <br>
         <br>
@@ -306,9 +299,6 @@
         The recommended maximum size accepted is 50 MB.
         <br>
         <br>
-        ((enjoy))
-        <br>
-        <br>
 
     ]]></IntroUpgrade>
     <IntroUpgrade Type="pre" Title="Upgrade Information" Lang="de"><![CDATA[
@@ -318,19 +308,19 @@
         <br>
         <br>
         Sie sind im Begriff das Znuny-Paket ITSM zu aktualisieren.
-        Dieses Paket aktualisiert Ihr System auf Znuny::ITSM 6.4.
+        Dieses Paket aktualisiert Ihr System auf Znuny::ITSM 7.0.
         <br>
         <br>
         Nach erfolgreicher Aktualisierung sind folgende Pakete installiert und werden entsprechend im Paketmanager angezeigt:
         <br>
         <ul>
-        <li>GeneralCatalog 6.4</li>
-        <li>ITSMCore 6.4</li>
-        <li>ITSMIncidentProblemManagement 6.4</li>
-        <li>ITSMConfigurationManagement 6.4</li>
-        <li>ITSMChangeManagement 6.4</li>
-        <li>ITSMServiceLevelManagement 6.4</li>
-        <li>ImportExport 6.4</li>
+        <li>GeneralCatalog 7.0</li>
+        <li>ITSMCore 7.0</li>
+        <li>ITSMIncidentProblemManagement 7.0</li>
+        <li>ITSMConfigurationManagement 7.0</li>
+        <li>ITSMChangeManagement 7.0</li>
+        <li>ITSMServiceLevelManagement 7.0</li>
+        <li>ImportExport 7.0</li>
         </ul>
         <br>
         <br>
@@ -343,9 +333,6 @@
         Empfohlen werden 50 MB.
         <br>
         <br>
-        ((enjoy))
-        <br>
-        <br>
 
     ]]></IntroUpgrade>
     <IntroUpgrade Type="pre" Title="Frissítési információk" Lang="hu"><![CDATA[
@@ -355,20 +342,20 @@
         <br>
         <br>
         Ön az Znuny::ITSM csomag frissítésére készül.
-        Ez a csomag frissíteni fogja a rendszerét az Znuny::ITSM 6.4 verziójára.
+        Ez a csomag frissíteni fogja a rendszerét az Znuny::ITSM 7.0 verziójára.
         <br>
         <br>
         Egy sikeres frissítés után a következő csomagokat fogja telepíteni és megjeleníteni a
         csomagkezelő:
         <br>
         <ul>
-        <li>GeneralCatalog 6.4</li>
-        <li>ITSMCore 6.4</li>
-        <li>ITSMIncidentProblemManagement 6.4</li>
-        <li>ITSMConfigurationManagement 6.4</li>
-        <li>ITSMChangeManagement 6.4</li>
-        <li>ITSMServiceLevelManagement 6.4</li>
-        <li>ImportExport 6.4</li>
+        <li>GeneralCatalog 7.0</li>
+        <li>ITSMCore 7.0</li>
+        <li>ITSMIncidentProblemManagement 7.0</li>
+        <li>ITSMConfigurationManagement 7.0</li>
+        <li>ITSMChangeManagement 7.0</li>
+        <li>ITSMServiceLevelManagement 7.0</li>
+        <li>ImportExport 7.0</li>
         </ul>
         <br>
         <br>
@@ -379,9 +366,6 @@
         Például egy MySQL adatbázis alapértelmezetten legfeljebb 1 MB méretű csomagot fogad el.
         Ebben az esetben a max_allowed_packet értékét kell megnövelni.
         A javasolt legnagyobb elfogadott méret 50 MB.
-        <br>
-        <br>
-        ((enjoy))
         <br>
         <br>
 
