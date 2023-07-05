@@ -446,9 +446,12 @@ sub _AddPackageRepository {
 
     my @CurrentEffectiveValue = @{ $Setting{EffectiveValue} // [] };
 
+    # Repository URLs of the bundle for the current and the last version.
+    my $OldITSMRepositoryURL     = 'https://download.znuny.org/releases/itsm/bundle6x/';
+    my $CurrentITSMRepositoryURL = 'https://download.znuny.org/releases/itsm/bundle7/';
+
     # If ITSM bundle repository is already present, leave SysConfig option asit is.
-    my $ITSMRepositoryURL     = 'https://download.znuny.org/releases/itsm/bundle7/';
-    my $ITSMRepositoryPresent = grep { $_->{URL} eq $ITSMRepositoryURL } @CurrentEffectiveValue;
+    my $ITSMRepositoryPresent = grep { $_->{URL} eq $CurrentITSMRepositoryURL } @CurrentEffectiveValue;
     return 1 if $ITSMRepositoryPresent;
 
     # Add ITSM bundle repository.
@@ -459,15 +462,21 @@ sub _AddPackageRepository {
     my $ExampleRepositoryPresent     = grep { $_->{Name} eq $ExampleRepositoryName } @CurrentEffectiveValue;
     my $OnlyExampleRepositoryPresent = @CurrentEffectiveValue == 1 && $ExampleRepositoryPresent;
     my $SetSysConfigOptionValid      = ( $Setting{IsValid} || $OnlyExampleRepositoryPresent ) ? 1 : 0;
+    my $OldITSMRepositoryPresent     = grep { $_->{URL} eq $OldITSMRepositoryURL } @CurrentEffectiveValue;
 
     my @NewEffectiveValue = @CurrentEffectiveValue;
+
+    # Remove Example Repository and old ITSM Repository.
     if ($ExampleRepositoryPresent) {
         @NewEffectiveValue = grep { $_->{Name} ne $ExampleRepositoryName } @NewEffectiveValue;
+    }
+    if ($OldITSMRepositoryPresent) {
+        @NewEffectiveValue = grep { $_->{URL} ne $OldITSMRepositoryURL } @NewEffectiveValue;
     }
 
     push @NewEffectiveValue, {
         Name            => 'Znuny::ITSM Bundle',
-        URL             => $ITSMRepositoryURL,
+        URL             => $CurrentITSMRepositoryURL,
         AuthHeaderKey   => '',
         AuthHeaderValue => '',
     };
