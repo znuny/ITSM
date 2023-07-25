@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>ITSM</Name>
-    <Version>6.5.1</Version>
+    <Version>6.5.2</Version>
     <Framework>6.5.x</Framework>
     <Vendor>Znuny</Vendor>
     <URL>https://www.znuny.org/</URL>
@@ -9,6 +9,7 @@
     <Description Lang="en">The ITSM bundle package.</Description>
     <Description Lang="de">Das ITSM-Bundle-Paket.</Description>
     <Description Lang="hu">Az összes ITSM csomag egyben.</Description>
+    <ChangeLog Version="6.5.2" Date="2023-07-25 14:39:19 +0200">Updated ITSMCore</ChangeLog>
     <ChangeLog Version="6.5.1" Date="2023-02-20 16:36:24 +0100">Initial release for Znuny 6.5.</ChangeLog>
     <ChangeLog Version="6.4.3" Date="2022-11-09 10:24:11 +0100">Updated Bundle.</ChangeLog>
     <ChangeLog Version="6.4.2" Date="2022-08-02 09:58:08 +0200">Release for Znuny 6.4.2.</ChangeLog>
