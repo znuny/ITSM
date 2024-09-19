@@ -9,6 +9,7 @@
     <Description Lang="en">The ITSM bundle package.</Description>
     <Description Lang="de">Das ITSM-Bundle-Paket.</Description>
     <Description Lang="hu">Az összes ITSM csomag egyben.</Description>
+    <ChangeLog Version="7.1.1" Date="2024-09-19 11:33:16 +0200">Initial release for Znuny 7.1.</ChangeLog>
     <ChangeLog Version="7.1.1" Date="2024-09-09 12:28:49 +0200">Initial release for Znuny 7.1.</ChangeLog>
     <ChangeLog Version="7.0.1" Date="2023-07-25 14:01:59 +0200">Initial release for Znuny 7.0</ChangeLog>
     <ChangeLog Version="6.5.1" Date="2023-02-20 16:36:24 +0100">Initial release for Znuny 6.5.</ChangeLog>
