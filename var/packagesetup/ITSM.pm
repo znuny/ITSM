@@ -135,33 +135,7 @@ run the code upgrade part
 sub CodeUpgrade {
     my ( $Self, %Param ) = @_;
 
-    $Self->_AddPackageRepository(%Param);
-
-    # check requirements
-    my $ResultOk = $Self->_CheckRequirements();
-
-    if ($ResultOk) {
-
-        # install the ITSM packages
-        $ResultOk = $Self->_InstallITSMPackages();
-    }
-
-    else {
-
-        # error handling
-        $Kernel::OM->Get('Kernel::System::Log')->Log(
-            Priority => 'error',
-            Message  => "Installation failed! See syslog for details.",
-        );
-
-        # uninstall this package
-        $Self->_UninstallPackage(
-            PackageList    => ['ITSM'],
-            PackageVersion => $Self->{PackageVersion},
-        );
-
-        return;
-    }
+    return if !$Self->CodeInstall(%Param);
 
     return 1;
 }
@@ -176,14 +150,6 @@ run the code uninstall part
 
 sub CodeUninstall {
     my ( $Self, %Param ) = @_;
-
-    # uninstall the packages
-    $Self->_UninstallPackage(
-        PackageList    => ['ITSM'],
-        PackageVersion => $Self->{PackageVersion},
-    );
-
-    $Self->_RemovePackageRepository(%Param);
 
     return 1;
 }
@@ -491,46 +457,6 @@ sub _AddPackageRepository {
                 Name           => $SysConfigOptionName,
                 EffectiveValue => \@NewEffectiveValue,
                 IsValid        => $SetSysConfigOptionValid,
-            },
-        ],
-    );
-
-    return $Success;
-}
-
-=head2 _RemovePackageRepository()
-
-Removes the ITSM bundle repository to the repository list.
-
-=cut
-
-sub _RemovePackageRepository {
-    my ( $Self, %Param ) = @_;
-
-    my $SysConfigObject = $Kernel::OM->Get('Kernel::System::SysConfig');
-
-    my $SysConfigOptionName = 'Package::RepositoryList';
-
-    my %Setting = $SysConfigObject->SettingGet(
-        Name => $SysConfigOptionName,
-    );
-    return if !%Setting;
-
-    my @CurrentEffectiveValue = @{ $Setting{EffectiveValue} // [] };
-
-    # Repository URL of the ITSM packages for the current version.
-    my $CurrentITSMRepositoryURL = 'https://download.znuny.org/releases/itsm/bundle7/';
-
-    my @NewEffectiveValue = grep { $_->{URL} ne $CurrentITSMRepositoryURL } @CurrentEffectiveValue;
-
-    my $Success = $SysConfigObject->SettingsSet(
-        UserID   => 1,
-        Comments => 'Znuny::ITSM package setup',
-        Settings => [
-            {
-                Name           => $SysConfigOptionName,
-                EffectiveValue => \@NewEffectiveValue,
-                IsValid        => $Setting{IsValid},
             },
         ],
     );
