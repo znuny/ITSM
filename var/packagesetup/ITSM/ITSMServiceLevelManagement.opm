@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>ITSMServiceLevelManagement</Name>
-    <Version>7.2.1</Version>
-    <Framework>7.2.x</Framework>
-    <PackageRequired Version="7.2.1">ITSMCore</PackageRequired>
+    <Version>7.3.1</Version>
+    <Framework>7.3.x</Framework>
+    <PackageRequired Version="7.3.1">ITSMCore</PackageRequired>
     <Vendor>Znuny</Vendor>
     <URL>https://www.znuny.org/</URL>
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
-    <Description Lang="en">The OTRS::ITSM Service Level Management package.</Description>
-    <Description Lang="de">Das OTRS::ITSM Service Level Management Paket.</Description>
-    <Description Lang="es">El paquete OTRS::ITSM Service Level Management.</Description>
-    <Description Lang="hu">Az OTRS::ITSM szolgáltatásszint-menedzsment csomag.</Description>
+    <Description Lang="en">The ITSM Service Level Management package.</Description>
+    <Description Lang="de">Das ITSM Service Level Management Paket.</Description>
+    <Description Lang="es">El paquete ITSM Service Level Management.</Description>
+    <Description Lang="hu">Az ITSM szolgáltatásszint-menedzsment csomag.</Description>
+    <ChangeLog Version="7.3.1" Date="2026-01-16 11:11:57 +0100">Initial release for Znuny 7.3.</ChangeLog>
     <ChangeLog Version="7.2.1" Date="2025-09-05 11:33:02 +0200">Initial release for Znuny 7.2.</ChangeLog>
     <ChangeLog Version="7.1.1" Date="2024-09-09 10:50:12 +0200">Initial release for Znuny 7.1.</ChangeLog>
     <ChangeLog Version="7.0.1" Date="2023-05-22 16:07:58 +0200">Initial release for Znuny 7.0.</ChangeLog>
@@ -22,7 +23,7 @@
     <ChangeLog Version="6.2.1" Date="2021-11-09 12:41:24 +0100">Ported to 6.2</ChangeLog>
     <ChangeLog Version="6.1.1" Date="2021-09-14 13:25:27 +0200">Ported to 6.1</ChangeLog>
     <BuildHost>build.znuny.com</BuildHost>
-    <BuildDate>2025-09-05 09:33:02 UTC</BuildDate>
+    <BuildDate>2026-01-16 10:11:57 UTC</BuildDate>
     <Filelist>
         <File Permission="660" Location="scripts/test/var/packagesetup/ITSMServiceLevelManagement.t" Encode="Base64">IyAtLQojIENvcHlyaWdodCAoQykgMjAyMSBabnVueSBHbWJILCBodHRwczovL3pudW55Lm9yZy8KIyAtLQojIFRoaXMgc29mdHdhcmUgY29tZXMgd2l0aCBBQlNPTFVURUxZIE5PIFdBUlJBTlRZLiBGb3IgZGV0YWlscywgc2VlCiMgdGhlIGVuY2xvc2VkIGZpbGUgQ09QWUlORyBmb3IgbGljZW5zZSBpbmZvcm1hdGlvbiAoQUdQTCkuIElmIHlvdQojIGRpZCBub3QgcmVjZWl2ZSB0aGlzIGZpbGUsIHNlZSBodHRwOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvYWdwbC50eHQuCiMgLS0KCnVzZSBzdHJpY3Q7CnVzZSB3YXJuaW5nczsKdXNlIHV0Zjg7Cgp1c2UgdmFycyAocXcoJFNlbGYpKTsKCnVzZSBLZXJuZWw6OlN5c3RlbTo6VmFyaWFibGVDaGVjayBxdyg6YWxsKTsKCm15ICRQYWNrYWdlU2V0dXBPYmplY3QgPSAkS2VybmVsOjpPTS0+R2V0KCd2YXI6OnBhY2thZ2VzZXR1cDo6SVRTTVNlcnZpY2VMZXZlbE1hbmFnZW1lbnQnKTsKCiRTZWxmLT5UcnVlKAogICAgc2NhbGFyICRQYWNrYWdlU2V0dXBPYmplY3QtPkNvZGVJbnN0YWxsKCksCiAgICAnQ29kZUluc3RhbGwoKScsCik7CgokU2VsZi0+VHJ1ZSgKICAgIHNjYWxhciAkUGFja2FnZVNldHVwT2JqZWN0LT5Db2RlUmVpbnN0YWxsKCksCiAgICAnQ29kZVJlaW5zdGFsbCgpJywKKTsKCiRTZWxmLT5UcnVlKAogICAgc2NhbGFyICRQYWNrYWdlU2V0dXBPYmplY3QtPkNvZGVVcGdyYWRlKCksCiAgICAnQ29kZVVwZ3JhZGUoKScsCik7CgokU2VsZi0+VHJ1ZSgKICAgIHNjYWxhciAkUGFja2FnZVNldHVwT2JqZWN0LT5Db2RlVW5pbnN0YWxsKCksCiAgICAnQ29kZVVuaW5zdGFsbCcsCik7CgoxOwo=</File>
         <File Permission="660" Location="var/stats/ITSMStats-001-Ticket.xml" Encode="Base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KCjxvdHJzX3N0YXRzPgo8Q2FjaGU+MDwvQ2FjaGU+CjxEZXNjcmlwdGlvbj5Ub3RhbCBudW1iZXIgb2YgYWxsIHRpY2tldHMgZXZlciBjcmVhdGVkIHBlciBUaWNrZXQtVHlwZSBhbmQgUHJpb3JpdHkuCgpYLUF4aXM6IFRpY2tldC1UeXBlClktQXhpczogUHJpb3JpdHkKClJlc3RyaWN0aW9uczoKICAgIC1ub25lPC9EZXNjcmlwdGlvbj4KPEZpbGU+PC9GaWxlPgo8Rm9ybWF0PkNTVjwvRm9ybWF0Pgo8Rm9ybWF0PkV4Y2VsPC9Gb3JtYXQ+CjxGb3JtYXQ+UHJpbnQ8L0Zvcm1hdD4KPEZvcm1hdD5EMzo6QmFyQ2hhcnQ8L0Zvcm1hdD4KPEZvcm1hdD5EMzo6TGluZUNoYXJ0PC9Gb3JtYXQ+CjxGb3JtYXQ+RDM6OlN0YWNrZWRBcmVhQ2hhcnQ8L0Zvcm1hdD4KPEdyYXBoU2l6ZT48L0dyYXBoU2l6ZT4KPE9iamVjdD5UaWNrZXQ8L09iamVjdD4KPE9iamVjdE1vZHVsZT5LZXJuZWw6OlN5c3RlbTo6U3RhdHM6OkR5bmFtaWM6OlRpY2tldDwvT2JqZWN0TW9kdWxlPgo8UGVybWlzc2lvbj5zdGF0czwvUGVybWlzc2lvbj4KPFN0YXRUeXBlPmR5bmFtaWM8L1N0YXRUeXBlPgo8U3VtQ29sPjE8L1N1bUNvbD4KPFN1bVJvdz4xPC9TdW1Sb3c+CjxUaXRsZT5Ub3RhbCBudW1iZXIgb2YgYWxsIHRpY2tldHMgZXZlciBjcmVhdGVkIHBlciBUaWNrZXQtVHlwZSBhbmQgUHJpb3JpdHk8L1RpdGxlPgo8VXNlQXNWYWx1ZVNlcmllcyBFbGVtZW50PSJQcmlvcml0eUlEcyIgRml4ZWQ9IjEiPgo8L1VzZUFzVmFsdWVTZXJpZXM+CjxVc2VBc1h2YWx1ZSBFbGVtZW50PSJUeXBlSURzIiBGaXhlZD0iMSI+CjwvVXNlQXNYdmFsdWU+CjxWYWxpZD4xPC9WYWxpZD4KPC9vdHJzX3N0YXRzPgo=</File>
@@ -122,7 +123,7 @@
         You are about to install the Znuny package ITSMServiceLevelManagement.<br/>
         <br/>
         <br/>
-        ((enjoy))<br/>
+        <br/>
         <br/>
 
     ]]></IntroInstall>
@@ -135,7 +136,7 @@
         Sie sind im Begriff das Znuny-Paket ITSMServiceLevelManagement zu installieren.<br>
         <br/>
         <br/>
-        ((enjoy))<br/>
+        <br/>
         <br/>
 
     ]]></IntroInstall>
@@ -148,7 +149,7 @@
         Usted esta apunto de instalar el paquete ITSMServiceLevelManagement de Znuny.<br/>
         <br/>
         <br/>
-        ((enjoy))<br/>
+        <br/>
         <br/>
 
     ]]></IntroInstall>
@@ -161,7 +162,7 @@
         Ön az ITSMServiceLevelManagement Znuny csomag telepítésére készül.<br/>
         <br/>
         <br/>
-        ((enjoy))<br/>
+        <br/>
         <br/>
 
     ]]></IntroInstall>
@@ -174,7 +175,7 @@
         The statistics that were installed by this package will be available in the menu item 'Stats'.
         <br/>
         <br/>
-        ((enjoy))<br/>
+        <br/>
         <br/>
 
     ]]></IntroInstall>
@@ -187,7 +188,7 @@
         Im Menü-Punkt 'Statistik' sind die von diesem Paket installierten Statistiken verfügbar.
         <br/>
         <br/>
-        ((enjoy))<br/>
+        <br/>
         <br/>
 
     ]]></IntroInstall>
@@ -200,7 +201,7 @@
         Las estadísticas que serán instaladas mediante este paquete estarán disponibles en el menú 'Stats'.
         <br/>
         <br/>
-        ((enjoy))<br/>
+        <br/>
         <br/>
 
     ]]></IntroInstall>
@@ -213,7 +214,7 @@
         A csomag által telepített statisztikák a „Statisztikák” menüpontban lesznek elérhetők.
         <br/>
         <br/>
-        ((enjoy))<br/>
+        <br/>
         <br/>
 
     ]]></IntroInstall>
@@ -226,7 +227,7 @@
         You are about to upgrade the Znuny package ITSMServiceLevelManagement.<br/>
         <br/>
         <br/>
-        ((enjoy))<br/>
+        <br/>
         <br/>
 
     ]]></IntroUpgrade>
@@ -239,7 +240,7 @@
         Sie sind im Begriff das Znuny-Paket ITSMServiceLevelManagement zu aktualisieren.<br/>
         <br/>
         <br/>
-        ((enjoy))<br/>
+        <br/>
         <br/>
 
     ]]></IntroUpgrade>
@@ -252,7 +253,7 @@
         Usted esta apunto de actualizar el paquete ITSMServiceLevelManagement de Znuny.<br/>
         <br/>
         <br/>
-        ((enjoy))<br/>
+        <br/>
         <br/>
 
     ]]></IntroUpgrade>
@@ -265,7 +266,7 @@
         Ön az ITSMServiceLevelManagement Znuny csomag frissítésére készül.<br/>
         <br/>
         <br/>
-        ((enjoy))<br/>
+        <br/>
         <br/>
 
     ]]></IntroUpgrade>
@@ -278,7 +279,7 @@
         The statistics that are associated with this package, will no longer be available if the package is uninstalled.
         <br/>
         <br/>
-        ((enjoy))<br/>
+        <br/>
         <br/>
 
     ]]></IntroUninstall>
@@ -291,7 +292,7 @@
         Nach der Deinstallation sind die von diesem Paket installierten Statistiken nicht mehr verfügbar.
         <br/>
         <br/>
-        ((enjoy))<br/>
+        <br/>
         <br/>
 
     ]]></IntroUninstall>
@@ -304,7 +305,7 @@
         Las estadísticas asociadas a este paquete no estarán disponibles si desinstala el paquete.
         <br/>
         <br/>
-        ((enjoy))<br/>
+        <br/>
         <br/>
 
     ]]></IntroUninstall>
@@ -317,7 +318,7 @@
         Az ehhez a csomaghoz hozzárendelt statisztikák többé nem lesznek elérhetők, ha a csomag eltávolításra kerül.
         <br/>
         <br/>
-        ((enjoy))<br/>
+        <br/>
         <br/>
 
     ]]></IntroUninstall>
