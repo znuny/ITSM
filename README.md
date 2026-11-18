@@ -26,7 +26,7 @@ This package is the ITSM bundle for Znuny. Installing it deploys the complete Zn
 
 **Prerequisites**
 
-- Znuny 7.3 (or compatible version per bundle release)
+- Znuny 7.5 (or compatible version per bundle release)
 
 **Installation**
 
