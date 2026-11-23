@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package version="1.0">
     <Name>ITSM</Name>
-    <Version>7.3.3</Version>
+    <Version>7.5.1</Version>
     <Framework>7.5.x</Framework>
     <Vendor>Znuny</Vendor>
     <URL>https://www.znuny.org/</URL>
@@ -9,6 +9,7 @@
     <Description Lang="en">The ITSM bundle package.</Description>
     <Description Lang="de">Das ITSM-Bundle-Paket.</Description>
     <Description Lang="hu">Az összes ITSM csomag egyben.</Description>
+    <ChangeLog Version="7.5.1" Date="2026-11-23 22:19:27 +0100">Updated OPMs for version 7.5 (ITSMServiceLevelManagement-7.5.1, ITSMIncidentProblemManagement-7.5.1, ITSMCore-7.5.1, ITSMConfigurationManagement-7.5.1, ITSMChangeManagement-7.5.1, ImportExport-7.5.1, GeneralCatalog-7.5.1).</ChangeLog>
     <ChangeLog Version="7.3.3" Date="2026-11-16 21:58:52 +0100">Updated OPMs for version 7.3 (ITSMServiceLevelManagement-7.3.1, ITSMIncidentProblemManagement-7.3.3, ITSMCore-7.3.4, ITSMConfigurationManagement-7.3.6, ITSMChangeManagement-7.3.4, ImportExport-7.3.3, GeneralCatalog-7.3.2).</ChangeLog>
     <ChangeLog Version="7.3.2" Date="2026-10-22 22:16:33 +0200">Updated OPMs for version 7.3.</ChangeLog>
     <ChangeLog Version="7.3.1" Date="2026-02-20 20:50:03 +0100">Initial release for Znuny 7.3.</ChangeLog>
